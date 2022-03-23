@@ -15,9 +15,9 @@ class EstValide implements ValidatorInterface
 {
     /**
      * Fonction build.
-     * 
+     *
      * @param string $param ceci est le commentaire
-     * 
+     *
      * @return object
      */
     public function build(array $param): object
@@ -26,9 +26,9 @@ class EstValide implements ValidatorInterface
     }
     /**
      * Fonction check.
-     * 
+     *
      * @param string $input ceci est le commentaire
-     * 
+     *
      * @return bool
      */
     public function check($input): bool
