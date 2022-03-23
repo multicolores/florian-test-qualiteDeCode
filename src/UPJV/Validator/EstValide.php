@@ -1,14 +1,14 @@
 <?php
 
+/**
+ * Vérifie les chaines
+ * 
+ * @license GNU public License V3
+ */
+
 namespace UPJV\Validator;
 /**
-Ceci est la doc de la classe
-
-@category Test_De_Category
-@package  Test_De_Category
-@author   Display Name <username@example.com>
-@license  test de category
-@link     test de category
+ * Class EstValide, fonction build & check
  */
 class EstValide implements ValidatorInterface
 {
@@ -17,7 +17,7 @@ class EstValide implements ValidatorInterface
      * 
      * @param string $param ceci est le commentaire
      * 
-     * @return $this
+     * @return object
      */
     public function build(array $param): object
     {
