@@ -2,11 +2,12 @@
 
 /**
  * Vérifie les chaines
- * 
+ *
  * @license GNU public License V3
  */
 
 namespace UPJV\Validator;
+
 /**
  * Class EstValide, fonction build & check
  */
